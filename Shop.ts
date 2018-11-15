@@ -7,10 +7,10 @@ class Shop {
 
 	code: string = null;
 
-	name: string = null;
+	createBy:Date=null;
 
-	getType(): string {
-		return 'Shop';
+	getTypeAAA(): string {
+		return 'ShopAAA';
 	}
 
 }
